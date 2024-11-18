@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Rules</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #00B140;
+            color: #2b2b2b;
+            margin: 0;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        h1, h2, h3 {
+            color: #000000; /* Header color */
+        }
+        h1 {
+            text-align: center;
+        }
+        .rule-section {
+            margin-bottom: 20px;
+            background-color: rgba(255, 255, 255, 0.528); /* Semi-transparent white for sections */
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Smooth shadow */
+            transition: box-shadow 0.3s ease;
+        }
+        .rule-section:hover {
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Shadow increase on hover */
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #FFFFFF; /* Color for footer text */
+        }
+    </style>
+</head>
+<body>
+    <div class="rule-section">
+        <h1>Game Rules</h1>
+    </div>    
+    <div class="rule-section">
+        <h2>Main Game</h2>
+        <ul>
+            <li><strong>General Information:</strong> The player controls a character that catches falling items and gold coins.</li>
+            <li><strong>Falling Items:</strong>
+                <ul>
+                    <li><strong>Gold Coins:</strong> Collecting a gold coin gives the player <strong>+1</strong> to their balance.</li>
+                    <li><strong>Other Items:</strong> Collecting any other item (not a coin) results in a <strong>-1</strong> loss from their balance.</li>
+                </ul>
+            </li>
+            <li><strong>Golden Clover:</strong> Collecting a golden clover triggers a bonus game.</li>
+        </ul>
+    </div>
+
+    <div class="rule-section">
+        <h2>Bonus Game</h2>
+        <ul>
+            <li><strong>Start of Bonus Game:</strong> After collecting a golden clover, a beautiful screen appears, informing the player about the start of the bonus game.</li>
+            <li><strong>Duration:</strong> The bonus game lasts <strong>10 seconds</strong>.</li>
+            <li><strong>Game Mechanics:</strong>
+                <ul>
+                    <li>Various colored clovers start appearing on the screen.</li>
+                    <li>The player must only click on the golden clovers:
+                        <ul>
+                            <li><strong>For each golden clover collected:</strong> the player receives <strong>+1</strong> coin.</li>
+                            <li><strong>If the player clicks on a clover of another color:</strong> the game ends, and the player loses.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="rule-section">
+        <h2>Quiz</h2>
+        <ul>
+            <li><strong>General Information:</strong> The quiz consists of <strong>30 questions</strong> on the theme of clovers and luck.</li>
+            <li><strong>Question Structure:</strong>
+                <ul>
+                    <li>Each question has <strong>4 answer options</strong>.</li>
+                    <li>Questions are presented to the player in a <strong>random order</strong>.</li>
+                </ul>
+            </li>
+            <li><strong>Final Screen:</strong> At the end of the quiz, the number of correct answers is shown. The player can return to the main menu.</li>
+        </ul>
+    </div>
+
+    <footer>
+        © 2024 Game Rules
+    </footer>
+
+</body>
+</html>
